@@ -1,0 +1,24 @@
+.input {
+    display: block;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input label {
+    font-weight: bold;
+  }
+  
+  .input input {
+    width: 100%;
+    border-radius: 5px;
+    font: inherit;
+    padding-left: 0.5rem;
+    color: #007DEE;
+    border: none !important;
+    &:focus-visible {
+      outline: none;
+    }
+  }
+
+  
+  
